@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto site IBS1</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: burlywood;
+
+        }
+        header{ /*configura o cabeçalho*/
+            background-color: rgb(85, 80, 54);
+            padding: 10px;
+            margin: 10px;
+        }
+        #principal{
+            height: 100px;
+        }
+        
+        h1{
+            text-align: center;
+            color: white;
+            /*box-shadow: inset 2px 1px 14px 6px rgba(0, 0, 0, 0.486);*/
+        }
+        h2{
+            text-align: center;
+        }
+        nav{ 
+            background-color: burlywood 
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.473);
+        }
+        
+        nav > a{ /*configura os links do nav*/
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{ /*Configura a aparencia do texto ao passar o mouse*/
+            text-decoration: underline;
+        }
+        main{ /*Configura o corpo principal com o conteudo*/
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px black;
+        }
+        section{
+            background-color: burlywood;
+            text-align: justify;
+            margin: 5px;
+            padding: 20px;
+            border-radius: 20px 40px;
+            
+            
+        }
+        article{ /*Configura a aparencia do texto*/
+            background-color: rgb(155, 130, 94);
+        }
+        article>aside{/*Configura o texto de indicação do autor*/
+            background-color: rgb(102, 99, 99);
+        }
+        footer{ /*Configura o rodapé*/
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PRIMEIRA IGREJA BATISTA NO SAPUCAIAS</h1>
+        <div id="principal">
+            <img src="imagens/pibsapucaias.PNG" alt="fachada" >
+        </div>
+        <nav>
+            <a href="historia.html">Nossa História</a>
+            <a href="missoes.html">Campanhas de Missões</a>
+            <a href="auxsocial.html">Missões Locais</a>
+            <a href="#">Progamações</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Nossos Cultos</h2>
+        <ul>
+            <li>Domingo das 09:00 as 10:00 - <strong>EBD</strong> 
+            <li>Domingo das 19:00 as 20:30 - <strong>Culto de Gratidão</strong></li>
+            <li>Terça-feira das 19:00 as 20:00 - <strong>Culto de Oração</strong></li>
+            <li>Sexta-Feira das 19:00 as 20:00 - <strong>Estudo Bíblico</strong></li>
+        </ul>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Devocional</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Veritatis neque tempore fugit quod soluta alias harum, 
+                    quia ab repellendus blanditiis dolorum maxime assumenda 
+                    ut cupiditate vitae hic. Magnam, eveniet cum.
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Hic voluptates atque quia fugit inventore. Ducimus magnam 
+                    aliquid nulla aperiam suscipit sunt tenetur architecto 
+                    exercitationem expedita, inventore consequuntur? 
+                    Quam, quas animi?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Asperiores voluptatibus quam atque illum nisi provident 
+                    minus nobis tempora, totam quibusdam esse aspernatur porro 
+                    labore. Ad explicabo voluptatem inventore vero nesciunt.
+                </p>
+                <aside>
+                    <p>Devocional escrita por Pr.Paulo de Tarso</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <div style="width: 210px;">
+        <h2>Como Chegar <br><a href="https://www.google.com.br/maps/place/Primeira+Igreja+Batista+No+Sapucaias/@-19.9246609,-44.1342314,737m/data=!3m1!1e3!4m13!1m7!3m6!1s0xa6ea8003fd6627:0x8538f40ea1c8da9!2sSapucaias+III,+Contagem+-+MG!3b1!8m2!3d-19.925405!4d-44.1338273!3m4!1s0xa6ea80347c53c1:0xe2f40d7b48bd4032!8m2!3d-19.9249087!4d-44.1318616?hl=pt-BR&authuser=0" target="_blank" rel="external"><img src="imagens/imgmaps.PNG" alt=""></a></h2>
+    </div>     
+    <footer>
+        <p>Desenvolvido por IrSantos</p>
+    </footer>
+    
+    
+</body>
+</html>

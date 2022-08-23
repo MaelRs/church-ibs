@@ -8,26 +8,34 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
-            background-color: burlywood;
+            background-image: linear-gradient(45deg, rgba(47, 47, 230, 0.541), black);
 
         }
         header{ /*configura o cabeçalho*/
-            background-color: rgb(85, 80, 54);
+            background-image: linear-gradient(90deg, rgb(70, 33, 3), rgb(245, 107, 14));
             padding: 10px;
             margin: 10px;
-            columns: 2;
+            
+        }
+        header>h1{
+            text-align: center;
+            color: white;
+            text-shadow: 1px 1px solid black;
+            /*box-shadow: inset 2px 1px 14px 6px rgba(0, 0, 0, 0.486);*/
+        }
+        header>div{
+            background-image: url(imagens/pibsapucaias.PNG);
+            background-repeat: no-repeat;
+            background-position: top center;
+            background-size: contain;
+            background-attachment: fixed;
         }
         #principal{
             height: 100px;
-            padding-bottom: 30px;
-            align-items: center;
+            padding-bottom: 30px;           
         }
         
-        h1{
-            text-align: center;
-            color: white;
-            /*box-shadow: inset 2px 1px 14px 6px rgba(0, 0, 0, 0.486);*/
-        }
+        
         h2{
             text-align: center;
         }
@@ -63,6 +71,9 @@
             border-radius: 20px 40px;
                         
         }
+        #assuntos{
+            max-width: 450px;
+        }
         article{ /*Configura a aparencia do texto*/
             background-color: rgb(155, 130, 94);
         }
@@ -88,7 +99,7 @@
     <header>
         <h1>PRIMEIRA IGREJA BATISTA NO SAPUCAIAS</h1>
         <div id="principal">
-            <center><img src="imagens/pibsapucaias.PNG" alt="fachada" ></center>
+            
         </div>
         <nav>
             <a href="historia.html">Nossa História</a>
